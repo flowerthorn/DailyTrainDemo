@@ -1,2 +1,2 @@
-include ':app', ':algorithm'
+include ':app', ':algorithm', ':java'
 rootProject.name='DailyTrainDemo'
