@@ -1,14 +1,12 @@
 package com.study.java.proxy.dynamicProxy;
 
-import com.study.java.proxy.normalProxy.IAction;
-
 /**
  * 售卖者
  */
-public class Sk2Seller implements IAction {
+public class Sk2Seller implements ISk2 {
 
     @Override
-    public void getSomething() {
+    public void getSk2() {
         System.out.println("Sk2Seller 专柜--sk2");
     }
 }

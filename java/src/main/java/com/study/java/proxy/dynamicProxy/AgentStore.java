@@ -21,7 +21,9 @@ public class AgentStore {
                     @Override
                     public Object invoke(Object o, Method method, Object[] objects)
                             throws Throwable {
+                        System.out.println("do before");
                         Object result = method.invoke(mObject, objects);
+                        System.out.println("do after");
                         return result;
                     }
                 });
