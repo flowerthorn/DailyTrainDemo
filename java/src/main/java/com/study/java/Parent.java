@@ -2,6 +2,9 @@ package com.study.java;
 
 public class Parent {
 
+    protected Parent() {
+    }
+
     public static void testStatic(){
 
     }
