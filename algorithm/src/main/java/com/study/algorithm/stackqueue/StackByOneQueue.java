@@ -1,4 +1,4 @@
-package com.study.algorithm.queue;
+package com.study.algorithm.stackqueue;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
