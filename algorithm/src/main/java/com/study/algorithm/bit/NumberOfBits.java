@@ -53,6 +53,6 @@ public class NumberOfBits {
     }
 
     public static void main(String[] args) {
-        System.out.println(hammingWeight2(9));
+        System.out.println(hammingWeight2(19));
     }
 }
